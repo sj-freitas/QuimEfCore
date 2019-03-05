@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuimEfCore", "QuimEfCore\QuimEfCore.csproj", "{5CF673B3-3542-44CE-9524-1E9FEC312208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuimEfCore", "QuimEfCore\QuimEfCore.csproj", "{5CF673B3-3542-44CE-9524-1E9FEC312208}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuimEfCore.SqlServer", "QuimEfCore.SqlServer\QuimEfCore.SqlServer.csproj", "{A9EA17F0-18A2-4635-B3C2-FA49965F5BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuimEfCore.PostgresSql", "QuimEfCore.PostgresSql\QuimEfCore.PostgresSql.csproj", "{2F3E8561-11B4-432D-8F30-659F92A02512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{5CF673B3-3542-44CE-9524-1E9FEC312208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF673B3-3542-44CE-9524-1E9FEC312208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF673B3-3542-44CE-9524-1E9FEC312208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9EA17F0-18A2-4635-B3C2-FA49965F5BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9EA17F0-18A2-4635-B3C2-FA49965F5BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9EA17F0-18A2-4635-B3C2-FA49965F5BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9EA17F0-18A2-4635-B3C2-FA49965F5BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3E8561-11B4-432D-8F30-659F92A02512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3E8561-11B4-432D-8F30-659F92A02512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3E8561-11B4-432D-8F30-659F92A02512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3E8561-11B4-432D-8F30-659F92A02512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
